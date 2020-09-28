@@ -1,0 +1,211 @@
+#wrap{
+width:1420px;
+height:1500;
+border:border-radius:%;
+margin:5px 5px;
+}
+/* 去除div区域与浏览器之间的边界 */
+/* 去除div区域与浏览器之间的边界 */
+body{
+	margin:0px;
+	padding:0px;
+}
+
+/* 最外层的div区域，里面有一个轮播区域 */
+#homepage {
+	width:100%;
+	height:455px;
+	background-image: url("photo.png");
+	background-size:cover;
+}
+/* 轮播区域 */
+.carousel {
+	/* 设置显示区域的宽度和高度 */
+	width:600px;
+	height:375px;
+	/* 隐藏溢出的内容 */
+	overflow:hidden; 
+	
+	/* 居中显示这个div区域 */
+	position:relative;
+	top:50%;
+	left:50%;
+	
+	transform:translate(-50%,-50%);
+	
+	/*background-color:black;	 完成轮播时删除 */
+}
+
+/* 轮播内容的集合 */
+.carousel-set {
+	width:3000px;	/* 设置宽度为轮播内容宽度的总和 */
+	height:300px;	/* 轮播内容的高度 */
+	
+	/*background-color:blue;	 完成轮播时删除 */
+	
+	/* 提示：修改这个div的左侧外边距可以实现移动轮播内容 */
+	/* 应用动画 */
+	animation:playMovie 15s linear infinite;
+}
+
+/* 轮播的内容 */
+.carousel-content {
+	width:600px;
+	height:350px;
+	float:left;	/* 设置左浮动，让轮播内容排成一行 */
+}
+
+/* 轮播的内容中的<img>标签 */
+.carousel-content>img{
+	width:100%;
+	height:100%;
+}
+
+/* keyframes规则 */
+@keyframes playMovie {
+	0% {margin-left:0px;}
+	10% {margin-left:0px;}
+	20% {margin-left:-600px;}
+	40% {margin-left:-600px;}
+	50% {margin-left:-1200px;}
+	70% {margin-left:-1200px;}
+	80% {margin-left:-1800px;}
+	90% {margin-left:-1800px;}
+	100% {margin-left:-2400px;}
+}
+header{
+width:1305px;
+height:80px;
+margin:20px auto;
+h1{color:#0F5396;font-family:黑体}
+}
+header1{
+width:1500px;
+height:80px;
+margin:20px auto;
+h1{color:#0F5396;font-family:黑体}
+padding:20px 20px;
+}
+header2{
+width:1500px;
+height:80px;
+margin:20px auto;
+h1{color:#0F5396;font-family:黑体}
+padding:20px 20px;
+}
+
+
+nav{
+  width:1500px;
+  height:50px;
+  border:1px solid black;
+  border-radius:%;
+  margin:20px auto;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    	background-image: url( "footer.png");
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav.top_menu{
+  width:100%;
+  height:40px;
+  background:#0F5396;  
+  margin:0 auto;
+}
+nav.top_menu ul li{
+  display:inline;
+}
+nav.top_menu ul li a{
+  display:inline-block;
+  padding:0 20px;
+  height:49px;
+  line-height:60px;
+  color:white;
+  font-size:20px;
+  text-decoration:none;
+
+}
+
+nav.top_menu ul li a:hover{
+  background:#0F5396;
+}
+main{
+width:1420px;
+height:750px;
+margin:5px auto;
+background-color:
+#F8F8FF;
+	background-size: cover;
+}
+article{
+width:915px;
+height:158px;
+border-style: ;
+border:1px solid rgba(223,220,220,1.00);
+  border-right-color:rgba(223,220,220,1.00);
+	background-color:white;
+margin:5px 10px;
+padding:10px 10px;
+font-family:宋体;
+}
+
+section{
+width:10px;
+height:10px;
+margin:10px 10px;
+float:left;
+}
+
+aside{
+width:450px;
+height:365px;
+border:1px solid rgba(223,220,220,1.00);
+border-radius:%;
+margin:14px 5px;
+float:right;
+background:white ;
+padding:0px 0px;
+h1{color:white;font-family:宋体}
+}
+p1{color:#4682B4;
+	font-size: 22px;
+	font-family:黑体;
+	font-weight: bold;
+}
+p2{color:#708090;
+	font-size: 15px;
+	font-family:黑体;
+	font-weight: 
+}
+p3{color:rgba(93,93,93,1.00);
+	font-size: 15px;
+	font-family:黑体;
+	font-weight: ;
+                text-align:right ;
+}
+footer{
+width:100%;
+height:50px;
+margin: auto;
+}
+
+
+
