@@ -1,5 +1,5 @@
 #wrap{
-width:100%;
+width:99.5%;
 height:1500;
 border:border-radius:%;
 margin:5px 5px;
@@ -38,7 +38,7 @@ body{
 
 /* 轮播内容的集合 */
 .carousel-set {
-	width:3000px;	/* 设置宽度为轮播内容宽度的总和 */
+	width:100%;	/* 设置宽度为轮播内容宽度的总和 */
 	height:300px;	/* 轮播内容的高度 */
 	
 	/*background-color:blue;	 完成轮播时删除 */
@@ -79,24 +79,8 @@ height:80px;
 margin:20px auto;
 h1{color:#0F5396;font-family:黑体}
 }
-header1{
-width:1500px;
-height:80px;
-margin:20px auto;
-h1{color:#0F5396;font-family:黑体}
-padding:20px 20px;
-}
-header2{
-width:1500px;
-height:80px;
-margin:20px auto;
-h1{color:#0F5396;font-family:黑体}
-padding:20px 20px;
-}
-
-
 nav{
-  width:1500px;
+  width:200%;
   height:50px;
   border:1px solid black;
   border-radius:%;
@@ -148,7 +132,7 @@ nav.top_menu ul li a:hover{
   background:#0F5396;
 }
 main{
-width:1420px;
+width:100%;
 height:750px;
 margin:5px auto;
 background-color:
@@ -156,30 +140,30 @@ background-color:
 	background-size: cover;
 }
 article{
-width:915px;
+width:65%;
 height:158px;
 border-style: ;
 border:1px solid rgba(223,220,220,1.00);
   border-right-color:rgba(223,220,220,1.00);
 	background-color:white;
-margin:5px 10px;
+margin:5px 5px;
 padding:10px 10px;
 font-family:宋体;
 }
 
 section{
-width:10px;
+width:100%;
 height:10px;
-margin:10px 10px;
+margin:2px 2px;
 float:left;
 }
 
 aside{
-width:450px;
-height:365px;
+width:32%;
+height:47%;
 border:1px solid rgba(223,220,220,1.00);
 border-radius:%;
-margin:14px 5px;
+margin:1px 1px;
 float:right;
 background:white ;
 padding:0px 0px;
