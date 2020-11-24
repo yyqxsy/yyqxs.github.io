@@ -28,7 +28,6 @@ h1{color:#0F5396;font-family:黑体}
 padding:20px 20px;
 }
 
-
 nav{
   width:1500px;
   height:50px;
@@ -42,7 +41,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  background-image: url( "footer.png");
+   background-image: url( "footer.png");
 }
 
 li {
@@ -81,54 +80,48 @@ nav.top_menu ul li a{
 nav.top_menu ul li a:hover{
   background:#0F5396;
 }
-
-nav.top_menu ul li a:hover{
-  background:#0F5396;
-}
 main{
 width:1400px;
-height:2190px;
-margin:10px auto;
+height:3840px;
+margin:20px auto;
 background-image: url("beijing1.jpg");
-background-size: cover;
-text-align:justify;
-line-height:30px;
+	background-size: cover;
 }
 article{
-width:1300px;
-height:1030px;
+width:1200px;
+height:880px;
 border:border-radius:%;
-margin:10px 10px;
-padding:10px 10px;
-font-family:黑体;
-text-align:justify;
+margin:10px 20px;
+padding:20px 20px;
+font-family:宋体;
+
 }
 section{
-width:600px;
-height:690px;
+width:450px;
+height:1900px;
 margin:10px 20px;
 float:left;
 }
 aside{
-background-image: url("背景2.png");
-width:350px;
-height:850px;
-border:1px solid white;
+width:0px;
+height:0px;
+border:0px solid grey;
 border-radius:%;
 margin:10px 20px;
 float:right;
-background:white;
+background-image: url("beijing.jpg");
 padding:10px 10px;
 h1{color:white;font-family:宋体}
 }
-em{color:white;
-	font-size: 50;
-	font-family:宋体;
+h1{
+    font-family: 黑体;
+	  font-size: 24px;
+	  color:#4682B4;
+	font-weight: bold;
 }
 footer{
 width:1500px;
 height:50px;
-clear:both;
 margin: auto;
 }
 

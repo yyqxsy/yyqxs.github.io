@@ -82,8 +82,8 @@ nav.top_menu ul li a:hover{
 }
 
 main{
-width:1400px;
-height:990px;
+width:100%;
+height:1100px;
 margin:20px auto;
 background-image: url("beijing1.jpg");
 background-size: cover;
